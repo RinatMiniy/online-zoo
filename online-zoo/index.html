@@ -20,21 +20,21 @@
             </a>
           </div>
 
-          <nav>
+          <nav class="nav__fix">
             <ul class="ul__nav">
-              <li class="li__nav">
-                <a href="zoos/panda.html" class="nav__link">About</a>
+              <li class="li__nav li__nav__fix">
+                <a href="" class="nav__link active" active>About</a>
               </li>
-              <li class="li__nav">
-                <a href="" class="nav__link">Zoos</a>
+              <li class="li__nav li__nav__fix">
+                <a href="pages/panda/panda.html" class="nav__link">Zoos</a>
               </li>
-              <li class="li__nav">
+              <li class="li__nav li__nav__fix">
                 <a href="" class="nav__link">Map</a>
               </li>
-              <li class="li__nav">
+              <li class="li__nav li__nav__fix">
                 <a href="#feedback" class="nav__link">Contact Us</a>
               </li>
-              <li class="li__nav">
+              <li class="li__nav li__nav__fix">
                 <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="nav__link">Design</a>
               </li>
             </ul> 
@@ -248,23 +248,26 @@
             </div>
 
             <form action="">
-              <input type="text" placeholder="Name" required>
+              <input type="text" placeholder="Name" required class="input__name">
               <input type="mail" placeholder="Email" required>
               <fieldset required>
                 <legend>Please enter your message</legend>
                 <textarea maxlength="280"></textarea required>
               </fieldset>
               <input type="checkbox" class="custom-checkbox" id="agree" name="agree" value="agree" required>
-              <label for="agree" class="label__agree">Happy</label>
-              <button type="submit">
-
+              <label for="agree" class="label__agree">I agree to the processing of Personal Data</label>
+              <button type="submit" class="submit__btn">
+                <a href="#" class="submit__link">
+                  SEND
+                  <img src="asserts/btn__arrow.svg" class="submit__btn__img" alt="">
+                </a>
               </button>
             </form>
 
           </div>
         </div>
 
-        <div class="footer__item">
+        <div class="footer__item needpad">
           <nav class="under__nav">
             <ul class="ul__nav under__ul">
               <li class="li__nav under__li">
@@ -279,7 +282,7 @@
               <li class="li__nav under__li">
                 <a href="" class="nav__link under__link">Design</a>
               </li>
-              <li class="li__nav under__li">
+              <li class="li__nav under__li  under__li__btn">
                 <button class="btn--large">
                   <a href="" class="btn">
                     donate for volunteers
@@ -294,11 +297,11 @@
           <address>
             132, Address District, Street<br>
             Open Daily 10:00 am - 5:00 pm <br>
-            <br>
-            <a href="tel:702163-3433" class="footer__link">T(702) 163-3433</a> <br>
-            <a href="mailto:zoo.online@gmail.com" class="footer__link">zoo.online@gmail.com</a> <br>
           </address>
-
+          <div class="footer__link__num">
+            <a href="tel:702163-3433" class="footer__link footer__link__one">T(702) 163-3433</a> <br>
+            <a href="mailto:zoo.online@gmail.com" class="footer__link">zoo.online@gmail.com</a> <br>
+          </div>
           <div class="social">
             <div class="social">
               <a href="https://www.instagram.com" target="_blank" class="social__item">
