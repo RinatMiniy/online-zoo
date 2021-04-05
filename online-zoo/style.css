@@ -90,10 +90,12 @@ button {
 .btn--large {
   width: 275px;
   margin: 0;
+  margin: 35px 00;
 }
 
 .btn--small {
   width: 194px;
+  margin: 30px 0 0 0;
 }
 
 .submit__btn {
@@ -202,7 +204,7 @@ nav {
 }
 
 .under__nav {
- margin: 0 0 60px 0;
+ margin: 0 0 20px 0;
  display: flex;
  justify-content: center;
  align-items:center; 
@@ -418,10 +420,6 @@ h4 {
 
 /* slider */
 
-.arrow__slider {
-  
-}
-
 .slides__inner {
   min-width: 100%;
   display: flex;
@@ -538,10 +536,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  padding: 100px 0 60px 0;
+  padding: 100px 0 42px 0;
 }
 
 .needpad {
+  padding-top: 70px;
   padding-left: 15px;
 }
 
@@ -688,7 +687,7 @@ address {
 }
 
 .copyright {
-  padding-top: 8px;
+  padding-top: 20px;
   min-height: 100%;
   font-style: normal;
   font-weight: normal;
@@ -713,9 +712,19 @@ address {
   height: 580px;
   align-items: center;
   width: 150px;
-  margin-left: 16px;
-  
-  position: -webkit-sticky;
+  margin-left: 26px;
+}
+
+.sticky__slider__link {
+  margin: 3px 0 3px 0;
+}
+
+.sticky__slider__link__up {
+  margin-bottom: 15px;
+}
+
+.sticky__slider__link__down {
+  margin-top: 5px;
 }
 
 h5 {
@@ -724,11 +733,17 @@ h5 {
   font-size: 20px;
   line-height: 23px;
   color: #333333;
+  letter-spacing: -0.05rem;
 }
 
 .disable {
   pointer-events: none;
   cursor:pointer;
+}
+
+.zoos__info {
+  margin: 156px 0 0 30px;
+  width: 380px;
 }
 
 .zoos__info__text {
@@ -741,7 +756,7 @@ h5 {
 }
 
 .zoos__main {
-  margin: 60px 0 0 177px;
+  margin: 60px 0 0 180px;
 
 }
 
@@ -752,4 +767,61 @@ h5 {
   line-height: 56px;
   color: #333333;
   margin-bottom: 40px;
+  letter-spacing: -0.25rem;
+}
+
+.zoos__screen {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mid {
+  margin: 0 26px 0 26px;
+}
+
+.dot {
+  content: '';
+  height: 8px;
+  width: 8px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot_active {
+  width: 11px;
+  height: 11px;
+  background: linear-gradient(106.89deg, #4BD8B5 -14.32%, #49D6DF 100.68%);
+}
+
+.dots {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 0 auto;
+}
+
+.croco__fix {
+  position: absolute;
+  left: 1150px;
+}
+
+
+
+
+
+
+
+
+
+
+.testi {
+  height: 810px;
+}
+
+.map {
+  height: 904px;
+  background-color: #F2F2F2;
 }
