@@ -279,6 +279,16 @@ input:checked + .slider:before {
 
 /* info */
 
+h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 89px;
+  line-height: 104px;
+  color: #FEFEFE;
+  text-align: left;
+
+}
+
 .info {
   height: 940px;
   position: relative;
@@ -422,6 +432,13 @@ h4 {
 
 /* slider */
 
+.slides::before {
+  background: url(asserts/arrow__left.svg) no-repeat;
+  float:left;
+  margin: 0 0 0 0px;
+  display: block;
+}
+
 .slides__inner {
   min-width: 100%;
   display: flex;
@@ -564,6 +581,7 @@ h4 {
 }
 
 .map__item {
+  margin-top: 60px;
   position: relative;
   height: 498px;
   width: 1200px;
@@ -608,6 +626,7 @@ h4 {
   position: absolute;
   box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.15);
   border-radius: 8px;
+  right: 30%;
 }
 
 .tooltip__info {
