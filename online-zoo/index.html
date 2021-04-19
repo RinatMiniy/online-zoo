@@ -52,37 +52,64 @@
   </header>
 
   <div class="info">
-    <img src="asserts/bg__info.png" alt="bg__info" class="info__img">
-    <div class="social absolute__block">
+    <div class="social social__info">
       <a href="https://www.instagram.com" target="_blank" class="social__item">
           <img src="asserts/insta.svg"  alt="">
       </a>
       <a href="https://www.twitter.com" target="_blank" class="social__item">
           <img src="asserts/twi.svg"  alt="">
       </a>
-      <a href="https://www.vk.com" target="_blank" class="social__item">
-          <img src="asserts/vk.svg"  alt="">
-      </a>
       <a href="https://www.youtube.com/" target="_blank" class="social__item">
           <img src="asserts/youtube.svg"  alt="">
       </a>
-      <div class="container__small">
-        <h2>Watch your favorite animal online</h2>
-        <button>
-          <a href="" class="btn">
-            <img src="asserts/btn__play.svg" class="btn__img" alt="">
-            Watch online
-          </a>
-      </button>
-      </div>
-        
-      <div class="value">02/<span class="value__second">08</span></div>
-          <input type="range" min="1" max="8" step="1" value="2">
+      <a href="https://www.vk.com" target="_blank" class="social__item">
+        <img src="asserts/vk.svg"  alt="">
+      </a>
     </div>
-      
+
     <div class="container__small">
       <h2>Watch your favorite animal online</h2>
+      <button class="btn__fix">
+        <a href="" class="btn">
+          <img src="asserts/btn__play.svg" class="btn__img" alt="">
+          Watch online
+        </a>
+      </button>   
     </div>
+
+    <div class="slider__info">
+      <div class="slider__info__inner">
+
+
+          <div class="info__slide">
+            <img src="asserts/eagle.png" class="info__slide__img" alt="">
+          </div>
+
+          <div class="info__slide">
+            <img src="asserts/panda.png" class="info__slide__img info__slide__img--active" alt="">
+          </div>
+
+          <div class="info__slide">
+            <img src="asserts/monkey__info.png" class="info__slide__img" alt="">
+          </div>
+
+          <div class="info__slide">
+            <img src="asserts/croc.png" class="info__slide__img" alt="">
+          </div>
+
+          <div class="info__slide">
+            <img src="asserts/fox__info.png" class="info__slide__img" alt="">
+          </div>
+
+        
+      </div>
+
+    <div class="info__range__slider">
+      <div class="value value__white">02/<span class="value__second">08</span></div>  
+        <input type="range" class="white" min="1" max="8" step="1" value="2">
+      </div>
+    </div>
+      
   </div>
 
   <div class="works">
@@ -93,7 +120,7 @@
       </div>
 
       <div class="works__slider">
-        <img src="asserts/deers.png" alt="deers">
+        <img src="asserts/deers.png" class="works__img" alt="deers">
         <div class="value">01/<span class="value__second">04</span></div>
         <input type="range" min="1" max="4" step="1" value="1">
       </div>
@@ -128,7 +155,7 @@
         </div>
 
         <div class="inspire__item">
-          <img src="asserts/inspire3.svg" alt="">
+          <img src="asserts/inspire3.svg" height="80px" alt="">
           <h4>What we believe in?</h4>
           <div class="inspire__text">
             Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.
@@ -140,6 +167,10 @@
   </div>
 
   <div class="pets">
+    <div class="arrow__container__left">
+      <img src="asserts/left-arrow.svg" class="slider__arrow" alt="">
+    </div>
+
     <div class="container__small">
       <div class="pets__inner">
 
@@ -195,7 +226,7 @@
                 </div>
 
                 <div class="slide slide_1 medium2">
-                  <img src="asserts/croc.png" alt="panda" class="slider__img">
+                  <img src="asserts/monkey.png" alt="panda" class="slider__img">
                   <div class="slide__content">
                     <div class="slider__pets__content">
                       <div class="slider__pets__content__text">
@@ -217,7 +248,7 @@
                 </div>
 
                 <div class="slide slide_1">
-                  <img src="asserts/monkey.png" alt="panda" class="slider__img">
+                  <img src="asserts/croc.png" alt="panda" class="slider__img">
                   <div class="slide__content">
                     <div class="slider__pets__content">
                       <div class="slider__pets__content__text">
@@ -242,7 +273,7 @@
             </div>
           </div>
           <div class="value">01/<span class="value__second">08</span></div>
-          <input type="range" min="1" max="8" step="1" value="1">
+          <input type="range" class="range__large" min="1" max="8" step="1" value="1">
         </div>
         
         <button>
@@ -253,6 +284,11 @@
 
       </div>
     </div>
+
+    <div class="arrow__container__right">
+      <img src="asserts/left-arrow.svg" class="slider__arrow right__arrow" alt="">
+    </div>
+
   </div>
 
   <div class="payment">
@@ -282,6 +318,11 @@
   </div>
 
   <div class="testi">
+
+    <div class="testi__arrow__container__left">
+      <img src="asserts/left-arrow.svg" class="slider__arrow" alt="">
+    </div>
+
     <div class="container__small">
       <div class="testi__inner">
         <h3>Testimonials</h3>
@@ -306,8 +347,8 @@
             </div>
           </div>
       </div>
-        <div class="value">01/<span class="value__second">08</span></div>
-        <input type="range" min="1" max="8" step="1" value="1">
+        <div class="value">02/<span class="value__second">08</span></div>
+        <input type="range" class="range__large" min="1" max="8" step="1" value="2">
         <button>
           <a href="" class="btn">
             Leave feedback
@@ -315,6 +356,11 @@
         </button>
     </div>
     </div>
+
+    <div class="testi__arrow__container__right">
+      <img src="asserts/left-arrow.svg" class="slider__arrow right__arrow" alt="">
+    </div>
+
   </div>
 
 
@@ -342,7 +388,7 @@
             </div>           
           </div>
 
-          <img src="asserts/mark__eagle.svg" alt="" class="mark__eagle">
+          <!-- <img src="asserts/mark__eagle.svg" alt="" class="mark__eagle"> -->
           <div class="map__tooltip eagle__tooltip">
             <img src="asserts/tooltip__eagle.png" height="65px" alt="">
 
@@ -357,7 +403,7 @@
             </div>           
           </div>
 
-          <img src="asserts/mark__croco.svg" alt="" class="mark__croco">
+          <!-- <img src="asserts/mark__croco.svg" alt="" class="mark__croco"> -->
           <div class="map__tooltip croco__tooltip">
             <img src="asserts/slicky__crock.png" height="65px" alt="">
 
@@ -372,7 +418,7 @@
             </div>           
           </div>
 
-          <img src="asserts/mark__monkey.svg" alt="" class="mark__monkey">
+          <!-- <img src="asserts/mark__monkey.svg" alt="" class="mark__monkey"> -->
           <div class="map__tooltip monkey__tooltip">
             <img src="asserts/slicky__monkey.png" height="65px" alt="">
 
@@ -389,7 +435,9 @@
 
         </div>
         <button>
+          
           <a href="pages/panda/panda.html" class="btn">
+            <img src="asserts/btn__play.svg" class="btn__img" alt="">
             Watch online
           </a>
         </button>
@@ -482,6 +530,13 @@
               </a>
               </div>
           </div>
+
+          <button class="btn--large fix__under__btn">
+            <a href="" class="btn">
+              donate for volunteers
+            </a>
+          </button>
+
         </div>
 
       </div>
