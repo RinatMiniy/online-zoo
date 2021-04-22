@@ -96,6 +96,7 @@ button {
   width: 275px;
   margin: 0;
   margin: 35px 00;
+  letter-spacing: -0.06rem;
 }
 
 .btn--small {
@@ -584,6 +585,7 @@ h4 {
 .slide__content:hover {
   background-color: #000;
   opacity: 40%;
+  
 
 }
 
@@ -1085,7 +1087,9 @@ h5 {
     background: none;
     border: 0;
     cursor: pointer;
-    padding: 9px 2px;
+    width:40px;
+    height: 20px;
+    margin-left: 28px;
 }
 
 .burger__item {
@@ -1136,21 +1140,47 @@ h5 {
     position: relative;
   }
 
-  .zoos__main {
-    margin-left: 30px;
+  .works__text {
+    margin: 30px 0 14px 0;
   }
 
-  .zoos__info {
+  .value {
+    margin-top: 29px;
+    margin-bottom: 15px;
+  }
+
+  .inspire__inner {
+    padding-bottom: 114px;
+  }
+  
+  .medium1 {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  .medium2 {
     margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .slides {
+    padding-top: 3px;
   }
 
   .arrow__container__left {
-    margin-top: 361px;
+    margin-top: 329px;
     margin-left: 100px;
   }
 
+  .slide {
+    width: 25%;
+    position: relative;
+    height: 301px;
+    overflow: hidden;
+  }
+
   .arrow__container__right {
-    margin-top: 380px;
+    margin-top: 329px;
     margin-right: 100px;
   }
 
@@ -1158,6 +1188,11 @@ h5 {
     width: 48px;
     margin: auto 17px;
   }
+
+  .payment__scheme {
+    display: flex;
+    margin: 51px auto 50px auto;
+  } 
 
   .testi__arrow__container__left {
     margin-top: 360px;
@@ -1167,6 +1202,17 @@ h5 {
   .testi__arrow__container__right {
     margin-top: 360px;
     margin-right: 100px;
+  }
+
+  .testi__item {
+    width: 440px;
+    height: 310px;
+    padding: 44px 56px 90px 56px;
+  }
+
+  .teti__slider {
+    margin-top: 65px;
+    margin-bottom: 46px;
   }
 
   .map__img {
@@ -1239,11 +1285,36 @@ h5 {
     width: 746px;
   }
 
-  .works__img {
+  .works__block__img {
+    overflow: hidden;
     width: 746px;
+    height: 323px;
   }
 
+
   /* ZOOS */
+
+  .zoos {
+    height: 715px;
+  }
+
+  .zoos__info {
+    margin-left: 20px;
+    width: 256px;
+  }
+
+  .zoos__info__text {
+    margin-bottom: 16px;
+  }
+
+  .zoos__info__text {
+    margin-top: 7px;
+  }
+
+  .btn--small {
+    width: 185px;
+    margin: 19px 0 0 0;
+  }
 
   .zoos__img {
     height: 96px;
@@ -1282,6 +1353,39 @@ h5 {
     margin: 0 18px;
   }
 
+  .under__nav {
+    margin-bottom: 13px;
+  }
+
+  .needpad {
+    padding-left: 10px;
+  }
+
+  .under__ul {
+   margin-left: 11px;
+  }
+
+  address {
+    margin-top: 32px;
+  }
+
+  .copyright {
+    padding-top: 26px;
+  }
+
+  .contactus {
+    margin: 64px 0 33px 0;
+  }
+  fieldset {
+    margin: 25px 0 18px 0;
+  }
+
+  .submit__btn__img {
+    margin-left: 16px;
+}
+
+
+
 
 
   @media (max-width: 1119px) {
@@ -1319,16 +1423,125 @@ h5 {
     }
 
     .zoos {
-      height: 982px;
+      height: 1076px;
     }
 
     .zoos__inner {
       flex-direction: column;
     }
+
+    .zoos__name {
+      margin-top: 40px;
+    }
+
+    .zoos__main {
+      margin: 112px 0 0 0px;
+      width: 497px;
+    }
+
+    .zoos__info {
+      margin-top: 49px;
+      margin-left: 0;
+      width: 496px;
+    }
+    .zoos__img__active {
+      height: 90px;
+    }
+
+    .zoos__img {
+      height: 70px;
+    }
+
+    .sticky__slider {
+      margin-left: -16px;
+    }
+
+  .zoos__name {
+    letter-spacing: -0.26rem;
+    margin-bottom: 38px;
+    }
+
+    .zoos__screen {
+      margin-top: 10px;
+    }
+
+    iframe {
+      width: 497px;
+      height: 280px;
+    }
+
+    .zoos__screen__img {
+      height: 89px;
+    }
+
+    .mid {
+      margin: 0 16px;
+    }
+
+    footer {
+      height: 1068px;
+      position: relative;
+    }
+
+    .footer__inner {
+      flex-direction: column;
+    }
+
+    .under__nav {
+      position: absolute;
+      top: 14.7%;
+      left: 1%;
+    }
+
+    .under__ul {
+      flex-direction: column;
+    }
+
+    .contactus {
+      margin: 135px 0 33px 0;
+    }
+
+    .under__logo {
+      margin: 0;
+    }
+
+    .btn--large {
+      position: absolute;
+      top: 5.8%;
+      left: 54%;
+    }
+
+    .needpad {
+      padding: 15px 0;
+      margin-bottom: 52px;
+    }
+
+    .footer__under {
+      height: 108px;
+    }
+
+    .under__li {
+      margin: 2.5px 0;
+      
+    }
+
+    .under__ul {
+      align-items:initial;
+      margin-left: 14px;
+    }
+
+    .sticky__slider {
+      width: 140px;
+    }
+
+    .zoos__info__text {
+      margin-top: 5px;
   }
 
-  @media (max-width: 640px) {
-
+  .btn--small {
+    margin-top: 29px;
+  }
+  
   }
 
 }
