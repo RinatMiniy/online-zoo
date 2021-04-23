@@ -729,10 +729,11 @@ h4 {
   top: 38.05%;
 }
 
-.map__img {
-  position: absolute;
-  top: 0%;
-  left: 0%;
+.map__block {
+  max-width: 1198px;
+  height: 497px;
+  position: relative;
+  background: url(asserts/map.svg) no-repeat center;
 }
 
 .map__tooltip {
@@ -1215,9 +1216,14 @@ h5 {
     margin-bottom: 46px;
   }
 
-  .map__img {
-    width: 900px;
+  .map__block {
     height: 436px;
+    background-size: 100% 100%;
+  }
+
+  .map__img {
+    height: 100%;
+    width: 900px;
   }
 
   .under__li__btn {
@@ -1370,7 +1376,7 @@ h5 {
   }
 
   .copyright {
-    padding-top: 26px;
+    padding-top: 33px;
   }
 
   .contactus {
@@ -1382,9 +1388,13 @@ h5 {
 
   .submit__btn__img {
     margin-left: 16px;
+  }
+
+  .dots {
+    margin-top: 27px;
+  }
+
 }
-
-
 
 
 
@@ -1541,10 +1551,174 @@ h5 {
   .btn--small {
     margin-top: 29px;
   }
-  
+
+  .copyright {
+    padding-top: 26px;
+  }
   }
 
+  @media (max-width: 638px) {
+    
+    .container__large {
+      width: 300px;
+    }
+  
+    .container__small {
+      width: 300px;
+    }
+
+    .logo {
+      margin-right: 116px;
+    }
+
+    .zoos__img {
+      height: 40px;
+    }
+  
+    .zoos__img__active {
+      height: 65px;
+    }
+  
+    iframe {
+      width: 205px;
+      height: 116px;
+    }
+  
+    .zoos__screen__img {
+      height: 56px;
+    }
+
+    .mid {
+      display: none;
+    }
+
+    .screen__left {
+      margin-right: 9px;
+    }
+
+    .zoos__name {
+      margin: 40px 0 0 6px;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -0.14rem;
+      margin-bottom: 22px;
+    }
+
+    .zoos__main {
+      width: 205px;
+      margin: 85px 0 0 0px;
+    }
+
+    .zoos__info {
+      width: 205px;
+      margin-top: 30px;
+    }
+
+    h5 {
+      font-size: 13px;
+      line-height: 16px;
+    }
+
+    .zoos__info__text {
+      font-size: 12px;
+      line-height: 14px;
+      margin-top: 7px;
+     
+    }
+
+    .btn--large {
+      top: 76.5%;
+      left: 7%;
+    }
+
+    input {
+      width: 299px;
+    }
+
+    fieldset {
+      width: 299px;
+    }
+
+    textarea {
+      width: 299px;
+    }
+
+    .under__logo {
+      margin-right: 0;
+    }
+
+    .footer__item {
+      width: 100%;
+      padding-top: 53px;
+      padding-bottom: 0;
+    }
+
+    .submit__btn {
+      margin-left: 0px;
+      height: initial;
+      width: initial;
+      padding-left: 190px;
+    }
+
+    .needpad {
+      margin-bottom: 164px;
+  }
+
+    
+    .sticky__slider {
+      top: 128px;
+      width: 111px;
+      margin-left: -17px;
+    }
+
+    .sticky__slider__link__up {
+      margin-bottom: 2px;
+    }
+
+    .sticky__slider__link {
+      margin: 1px 0 1px 0;
+    }
+
+    .sticky__slider__link__down {
+      margin-top: 4px;
+    }
+
+    .zoos__screen {
+      margin-top: 6px;
+    }
+
+    .dots {
+      margin-top: 20px;
+    }
+
+    .btn--small {
+      margin-top: 21px;
+  }
+
+    .zoos {
+      height: 776px;
+    }
+
+    .under__nav {
+      position: absolute;
+      top: 11.3%;
+      left: -1%;
+  }
+    .contactus {
+      margin: 147px 0 33px 0;
+  }
+
+  .needpad {
+    margin-bottom: 179px;
+  }
+
+  footer {
+    height: 1100px;
+  }
 }
+
+
+
 
 
 
