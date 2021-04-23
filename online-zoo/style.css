@@ -1899,6 +1899,100 @@ h5 {
     height: 363px;
   }
 
+  h2 {
+    font-size: 47px;
+    line-height: 56px;
+    padding-top: 184px;
+    padding-right: 490px;
+    padding-bottom: 16px;
+}
+  .info {
+    height: 762px;
+    background-size: cover;
+  }
+
+  .social {
+    display: none;
+  }
+
+  h3 {
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 50px;
+  }
+
+  .works__text {
+    margin: -10px 0 30px 0;
+  }
+
+  .value {
+    margin-top: 21px;
+    margin-bottom: 12px;
+  }
+
+  button {
+    margin-top: 25px;
+  }
+
+  .works__inner {
+    padding-bottom: 48px;
+  }
+
+  .inspire__inner {
+    flex-direction: column;
+    padding: 35px 0;
+}
+
+.inspire__item__mid {
+  margin: 15px auto 3px auto;
+}
+
+.payment__text {
+  display: none;
+}
+
+.payment__scheme {
+  display: flex;
+  margin: 33px auto 50px auto;
+}
+
+.payment__inner {
+  text-align: center;
+  padding-bottom: 42px;
+}
+
+.teti__slider {
+  margin-top: 37px;
+  margin-bottom: 41px;
+}
+.testi__item {
+  padding: 51px 8px 79px 14px;
+}
+
+.testi__name {
+
+  margin-top: 39px;
+  margin-bottom: 16px;
+}
+
+.testi {
+  height: 706px;
+}
+
+.map__block {
+  height: 146px;
+}
+
+.map {
+  height: 412px;
+}
+
+.map__item {
+  margin-top: 31px;
+}
+
+
+
 
 
 
