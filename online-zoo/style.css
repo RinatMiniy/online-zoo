@@ -735,7 +735,8 @@ h4 {
   height: 497px;
   max-width: 900px;
   position: relative;
-  background: url(asserts/map.png) no-repeat center;
+  background: no-repeat center;
+  background-image: url(asserts/map.png);
 }
 
 .map__tooltip {
@@ -1137,19 +1138,13 @@ h5 {
   background-color: #4f4f4f;
 }
 
-.dark .nav__link, h3, .works__text, .testi__name, .testi__rew {
+.dark__text{
   color: #FEFEFE;
 }
 
-.dark .testi__item {
+.dark__testi__item {
   background-color: #3B3B3B;
 }
-
-.dark__light h4, .inspire__text,.payment__text {
-  color: #FEFEFE;
-}
-
-
 
 
 /* media */

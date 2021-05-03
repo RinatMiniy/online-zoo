@@ -8,39 +8,39 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
+  <header class="black__bg">
     <div class="container__large">
         <div class="header__inner">
           <div class="logo">
             <h1 class="visuallyhidden">online-zoo</h1>
             <a href="../index.html">
-              <img src="../asserts/logo.svg" alt="logo">
+              <img src="../asserts/logo.svg" class="logo__img" alt="logo">
             </a>
           </div>
 
           <nav class="nav__fix">
             <ul class="ul__nav">
               <li class="li__nav li__nav__fix">
-                <a href="../index.html" class="nav__link" active>About</a>
+                <a href="../index.html" class="nav__link white__text" active>About</a>
               </li>
               <li class="li__nav li__nav__fix">
-                <a href="panda/panda.html" class="nav__link">Zoos</a>
+                <a href="panda/panda.html" class="nav__link white__text">Zoos</a>
               </li>
               <li class="li__nav li__nav__fix">
-                <a href="" class="nav__link  active">Map</a>
+                <a href="" class="nav__link  active white__text">Map</a>
               </li>
               <li class="li__nav li__nav__fix">
-                <a href="#feedback" class="nav__link">Contact Us</a>
+                <a href="#feedback" class="nav__link white__text">Contact Us</a>
               </li>
               <li class="li__nav li__nav__fix">
-                <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="nav__link">Design</a>
+                <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="nav__link white__text">Design</a>
               </li>
             </ul> 
           </nav>
 
           <div class="switch">
             <label class="switch">
-              <input type="checkbox">
+              <input type="checkbox" class="toggle">
               <span class="slider round"></span>
             </label>
           </div>
@@ -49,16 +49,18 @@
     </div>
   </header>
 
-  <div class="map">
+  <div class="map black__light__bg">
     <div class="container__small">
       <div class="map__inner">
-        <h3>Map</h3>
+        <h3 class="white__text">Map</h3>
         
         <div class="map__item">
 
-          <img src="../asserts/map.svg" width="1200" height="498" class="map__img" alt="">
+          <div class="map__block">
+            
+          </div>
 
-          <img src="../asserts/mark__panda.svg" alt="" class="mark__img mark__panda">
+          <!-- <img src="../asserts/mark__panda.svg" alt="" class="mark__img mark__panda"> -->
           <div class="map__tooltip panda__tooltip">
             <img src="../asserts/slicky__panda.png" height="65px" alt="">
 
@@ -72,8 +74,8 @@
               </div>
             </div>           
           </div>
-
-          <img src="../asserts/mark__eagle.svg" alt="" class="mark__eagle">
+<!-- 
+          <img src="../asserts/mark__eagle.svg" alt="" class="mark__eagle"> -->
           <div class="map__tooltip eagle__tooltip">
             <img src="../asserts/tooltip__eagle.png" height="65px" alt="">
 
@@ -88,7 +90,7 @@
             </div>           
           </div>
 
-          <img src="../asserts/mark__croco.svg" alt="" class="mark__croco">
+          <!-- <img src="../asserts/mark__croco.svg" alt="" class="mark__croco"> -->
           <div class="map__tooltip croco__tooltip">
             <img src="../asserts/slicky__crock.png" height="65px" alt="">
 
@@ -103,7 +105,7 @@
             </div>           
           </div>
 
-          <img src="../asserts/mark__monkey.svg" alt="" class="mark__monkey">
+          <!-- <img src="../asserts/mark__monkey.svg" alt="" class="mark__monkey"> -->
           <div class="map__tooltip monkey__tooltip">
             <img src="../asserts/slicky__monkey.png" height="65px" alt="">
 
@@ -231,5 +233,8 @@
       </div>
     </div>
   </footer>
+  <script src="script__map.js">
+
+  </script>
 </body>
 </html>
