@@ -20,21 +20,21 @@ toggle.addEventListener("change", () => {
   })
 
   if (!logo__img.classList.contains("position2")) {
-    logo__img.src = `${"../../asserts/logo__light.svg"}`;
+    logo__img.src = `${"../asserts/logo__light.svg"}`;
     logo__img.classList.add("position2");
   }
   else {
-    logo__img.src = `${"../../asserts/logo.svg"}`;
+    logo__img.src = `${"../asserts/logo.svg"}`;
     logo__img.classList.remove("position2");
   }
 
   if (!map__block.classList.contains("position2")) {
     console.log("sa")
-    map__block.style.backgroundImage = "url('../../asserts/map__black.png')";
+    map__block.style.backgroundImage = "url('../asserts/map__black.png')";
     map__block.classList.add("position2");
   }
   else {
-    map__block.style.backgroundImage = "url('../../asserts/map.png')";
+    map__block.style.backgroundImage = "url('../asserts/map.png')";
     map__block.classList.remove("position2");
   }
 })
